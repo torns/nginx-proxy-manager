@@ -1,7 +1,6 @@
 .DS_Store
 .idea
 ._*
-node_modules
 core*
 config/development.json
 dist

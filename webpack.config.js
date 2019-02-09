@@ -104,11 +104,11 @@ module.exports = {
         new Visualizer({
             filename: '../webpack_stats.html'
         }),
-        new CopyWebpackPlugin([{
-            from:    'src/frontend/app-images',
-            to:      'images',
-            toType:  'dir',
-            context: '/app'
-        }])
+        // new CopyWebpackPlugin([{
+        //     from:    'src/frontend/app-images',
+        //     to:      'images',
+        //     toType:  'dir',
+        //     context: '/app'
+        // }])
     ]
 };
